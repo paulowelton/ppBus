@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Tela" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visual.Introducao">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="PPBUS">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="66.0" text="INTRODUÇÃO">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="93.0" prefHeight="21.0" prefWidth="123.0" />
+      <Label layoutX="49.0" layoutY="145.0" />
+      <Text layoutX="14.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Este aplicativo foi feito para mostrar as paradas de ônibus, tipos de ônibus que vai passar por aquela parada, rotas e horarios, o aplicativo foi feito para ajudar tanto a escola como a comunidade." wrappingWidth="404.7294921875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnComoUsar" layoutX="40.0" layoutY="170.0" mnemonicParsing="false" onAction="#abrirComoUsar" text="como usar" />
+      <Button fx:id="btnHorarios" layoutX="38.0" layoutY="207.0" mnemonicParsing="false" onAction="#abrirHorarios" text="Horarios" />
+      <Button fx:id="btnLinhas" layoutX="38.0" layoutY="242.0" mnemonicParsing="false" onAction="#abrirListaIOnibus" text="Linhas de ônibus" />
+      <Label layoutX="367.0" layoutY="275.0" text="GRUPO:" />
+      <Label layoutX="430.0" layoutY="295.0" text="Antonio Lucas" />
+      <Label layoutX="430.0" layoutY="317.0" text="Davi Rodrigues" />
+      <Label layoutX="430.0" layoutY="337.0" text="Talyson de Almeida" />
+      <Label layoutX="433.0" layoutY="357.0" prefHeight="16.0" prefWidth="107.0" text="Francisco Rafael" />
+      <Label layoutX="433.0" layoutY="378.0" text="Paulo Welton" />
+      <Label layoutX="430.0" layoutY="275.0" text="Daniel Vinícius" />
+   </children>
+</AnchorPane>
