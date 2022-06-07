@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visual.Linhas">
    <children>
-      <Label layoutX="196.0" layoutY="14.0" text="LINHAS">
+      <Label layoutX="206.0" layoutY="14.0" text="LINHAS">
          <font>
             <Font size="51.0" />
          </font>
       </Label>
+      <Button fx:id="btnHorarios" layoutX="24.0" layoutY="75.0" mnemonicParsing="false" onAction="#abrirHorarios" text="Horarios" />
+      <Button fx:id="btnParadas" layoutX="25.0" layoutY="318.0" mnemonicParsing="false" onAction="#abrirParadas" text="paradas" />
+      <Button fx:id="btnIntroducao" layoutX="422.0" layoutY="362.0" mnemonicParsing="false" onAction="#voltarIntroducao" text="voltar para introdução" />
    </children>
 </AnchorPane>

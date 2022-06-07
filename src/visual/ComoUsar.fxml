@@ -13,13 +13,13 @@
             <Font size="34.0" />
          </font>
       </Label>
-      <Button layoutX="22.0" layoutY="74.0" mnemonicParsing="false" text="Horarios" />
+      <Button disable="true" layoutX="22.0" layoutY="74.0" mnemonicParsing="false" text="Horarios" />
       <Text layoutX="108.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O botão horario serve para mostrar os horarios que os ônibus passam por uma parada." wrappingWidth="472.96044921875" />
-      <Button layoutX="14.0" layoutY="122.0" mnemonicParsing="false" text="Linhas de ônibus" />
-      <Text layoutX="156.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Essse botão vai mostrar tanto as linhas de ônibus como as paradas também." wrappingWidth="385.35986328125" />
-      <Button layoutX="14.0" layoutY="172.0" mnemonicParsing="false" text="Paradas" />
-      <Text layoutX="95.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esswe botão vai estar dentro da tela de linha de ônibus, a função dele é mostrar as paradas que os ônibus vão passar" wrappingWidth="472.96044921875" />
-      <Button fx:id="btnHorarios" layoutX="318.0" layoutY="362.0" mnemonicParsing="false" onAction="#click" text="Horarios" />
-      <Button fx:id="btnLinhas" layoutX="433.0" layoutY="362.0" mnemonicParsing="false" onAction="#click" text="Linhas de ônibus" />
+      <Button disable="true" layoutX="14.0" layoutY="122.0" mnemonicParsing="false" text="Linhas de ônibus" />
+      <Text layoutX="156.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esse botão vai mostrar tanto as linhas de ônibus como as paradas também." wrappingWidth="385.35986328125" />
+      <Button disable="true" layoutX="14.0" layoutY="172.0" mnemonicParsing="false" text="Paradas" />
+      <Text layoutX="95.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esse botão vai estar dentro da tela de linha de ônibus, a função dele é mostrar as paradas que os ônibus vão passar." wrappingWidth="472.96044921875" />
+      <Button fx:id="btnLinhas" layoutX="433.0" layoutY="362.0" mnemonicParsing="false" onAction="#abrirListaIOnibus" text="Linhas de ônibus" />
+      <Label layoutX="370.0" layoutY="366.0" text="Começe:" />
    </children>
 </AnchorPane>

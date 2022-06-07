@@ -1,4 +1,5 @@
 package visual;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -8,15 +9,14 @@ import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
-public class ComoUsar {
+public class Paradas {
     private Parent root;
     private Stage tela;
     private Scene cena;
 
 
     @FXML
-    private Button btnLinhas;
-     
+    private Button btnVoltar2;
 
     private void abrirTela(ActionEvent evento, String arquivo, String css) throws Exception{
         // Coloca arquivo na memória para carregar
@@ -32,10 +32,10 @@ public class ComoUsar {
         tela.show();
    }
 
-   @FXML
-   void abrirListaIOnibus(ActionEvent event) throws Exception {
-       abrirTela(event,  "Linhas.fxml",  "app.css");
-   }
+
+    @FXML
+    void volatrLinha2(ActionEvent event) throws Exception {
+        abrirTela(event,  "Linhas.fxml",  "app.css");
+    }
 
 }
-

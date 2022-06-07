@@ -1,3 +1,16 @@
-#Tela{
-   
+
+#Tela1{
+   -fx-background-color: #48b9b3;
+}
+#ppbus{
+    -fx-text-fill:#fff;
+}
+#introducaotxt{
+    -fx-text-fill:#fff;
+}
+#introducaotit{
+    -fx-text-fill:#fff;
+}
+#introducaofala{
+    -fx-fill: #ffffff;
 }
