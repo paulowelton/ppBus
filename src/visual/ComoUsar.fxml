@@ -6,20 +6,20 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visual.ComoUsar">
+<AnchorPane id="tela5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visual.ComoUsar">
    <children>
-      <Label layoutX="14.0" layoutY="14.0" text="Como Usar">
+      <Label id="titComoUsar" layoutX="14.0" layoutY="14.0" stylesheets="@app.css" text="Como Usar">
          <font>
             <Font size="34.0" />
          </font>
       </Label>
-      <Button disable="true" layoutX="22.0" layoutY="74.0" mnemonicParsing="false" text="Horarios" />
-      <Text layoutX="108.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O botão horario serve para mostrar os horarios que os ônibus passam por uma parada." wrappingWidth="472.96044921875" />
-      <Button disable="true" layoutX="14.0" layoutY="122.0" mnemonicParsing="false" text="Linhas de ônibus" />
-      <Text layoutX="156.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esse botão vai mostrar tanto as linhas de ônibus como as paradas também." wrappingWidth="385.35986328125" />
-      <Button disable="true" layoutX="14.0" layoutY="172.0" mnemonicParsing="false" text="Paradas" />
-      <Text layoutX="95.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esse botão vai estar dentro da tela de linha de ônibus, a função dele é mostrar as paradas que os ônibus vão passar." wrappingWidth="472.96044921875" />
-      <Button fx:id="btnLinhas" layoutX="433.0" layoutY="362.0" mnemonicParsing="false" onAction="#abrirListaIOnibus" text="Linhas de ônibus" />
-      <Label layoutX="370.0" layoutY="366.0" text="Começe:" />
+      <Button id="btnA" disable="true" layoutX="23.0" layoutY="74.0" mnemonicParsing="false" stylesheets="@app.css" text="Avaliação" />
+      <Text id="titA" fx:id="titA" layoutX="118.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O botão de avaliação serve para voçê avaliar o aplicativo." wrappingWidth="472.96044921875" />
+      <Button id="btnO" disable="true" layoutX="31.0" layoutY="123.0" mnemonicParsing="false" stylesheets="@app.css" text="Ônibus" />
+      <Text id="titO" fx:id="titO" layoutX="118.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esse botão vai mostrar tanto as linhas de ônibus como as paradas também." wrappingWidth="385.35986328125" />
+      <Button id="btnP" disable="true" layoutX="31.0" layoutY="176.0" mnemonicParsing="false" stylesheets="@app.css" text="Paradas" />
+      <Text id="titP" fx:id="titP" layoutX="118.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esse botão vai estar dentro da tela de ônibus, a função dele é mostrar as paradas que os ônibus vão passar." wrappingWidth="472.96044921875" />
+      <Button id="btnLinhasO" fx:id="btnLinhas" layoutX="433.0" layoutY="362.0" mnemonicParsing="false" onAction="#abrirListaIOnibus" stylesheets="@app.css" text="Linhas de ônibus" />
+      <Label id="comece" layoutX="370.0" layoutY="366.0" stylesheets="@app.css" text="Começe:" />
    </children>
 </AnchorPane>

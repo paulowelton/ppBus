@@ -5,15 +5,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visual.Linhas">
+<AnchorPane id="tela2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visual.Linhas">
    <children>
-      <Label layoutX="206.0" layoutY="14.0" text="LINHAS">
+      <Label id="titOnibus" layoutX="201.0" layoutY="14.0" stylesheets="@app.css" text="ÔNIBUS">
          <font>
             <Font size="51.0" />
          </font>
       </Label>
-      <Button fx:id="btnHorarios" layoutX="24.0" layoutY="75.0" mnemonicParsing="false" onAction="#abrirHorarios" text="Horarios" />
-      <Button fx:id="btnParadas" layoutX="25.0" layoutY="318.0" mnemonicParsing="false" onAction="#abrirParadas" text="paradas" />
-      <Button fx:id="btnIntroducao" layoutX="422.0" layoutY="362.0" mnemonicParsing="false" onAction="#voltarIntroducao" text="voltar para introdução" />
+      <Button id="btnParadas" fx:id="btnParadas" layoutX="14.0" layoutY="355.0" mnemonicParsing="false" onAction="#abrirParadas" stylesheets="@app.css" text="paradas" />
+      <Button id="btnAvaliacao" fx:id="btnAv" layoutX="497.0" layoutY="355.0" mnemonicParsing="false" onAction="#abrirAvaliação" stylesheets="@app.css" text="Avaliação" />
    </children>
 </AnchorPane>

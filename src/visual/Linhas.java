@@ -23,6 +23,10 @@ public class Linhas {
     @FXML
     private Button btnParadas;
 
+    @FXML
+    void abrirAvaliação(ActionEvent event) throws Exception{
+        abrirTela(event, "Avaliacao.fxml", "app.css");
+    }
 
     private void abrirTela(ActionEvent evento, String arquivo, String css) throws Exception{
         // Coloca arquivo na memória para carregar
@@ -37,19 +41,10 @@ public class Linhas {
         // Mostra a tela
         tela.show();
     }
-    @FXML
-    void abrirHorarios(ActionEvent event) throws Exception {
-        abrirTela(event, "Horarios.fxml", "app.css");
-    }
 
     @FXML
     void abrirParadas(ActionEvent event) throws Exception {
         abrirTela(event, "Paradas.fxml", "app.css");
-    }
-
-    @FXML
-    void voltarIntroducao(ActionEvent event) throws Exception {
-        abrirTela(event, "Introducao.fxml", "app.css");
     }
 
 }
