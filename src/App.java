@@ -14,6 +14,7 @@ public class App extends Application{
       Parent root = FXMLLoader.load(getClass().getResource("visual/Introducao.fxml"));
       Scene cena = new Scene(root);
       cena.getStylesheets().addAll(getClass().getResource("visual/app.css").toString());
+      tela.setResizable(false);
       tela.setScene(cena);
       tela.show();
         

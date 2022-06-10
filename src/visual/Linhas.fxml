@@ -14,5 +14,15 @@
       </Label>
       <Button id="btnParadas" fx:id="btnParadas" layoutX="14.0" layoutY="355.0" mnemonicParsing="false" onAction="#abrirParadas" stylesheets="@app.css" text="paradas" />
       <Button id="btnAvaliacao" fx:id="btnAv" layoutX="497.0" layoutY="355.0" mnemonicParsing="false" onAction="#abrirAvaliação" stylesheets="@app.css" text="Avaliação" />
+      <Label fx:id="btnO" layoutX="121.0" layoutY="131.0" text="025 ICARAÍ/FORTALEZA/VIA BARRA DO CEARÁ" />
+      <Label fx:id="btnO" layoutX="119.0" layoutY="165.0" text="711 BARRA DO CEARÁ/CAIS DO PORTO" />
+      <Label fx:id="btnO" layoutX="137.0" layoutY="192.0" text="070 CUCA BARRA/ PARANGABA" />
+      <Label fx:id="btnO" layoutX="119.0" layoutY="75.0" text="092 ANTÔNIO BEZERRA/ PAPICU/ PRAIA DO IRACEMA" />
+      <Label fx:id="btnO" layoutX="121.0" layoutY="100.0" text="706 BARRA DO CEARẤ/ANTÔNIO BEZERRA" />
+      <Label fx:id="btnO" layoutX="211.0" layoutY="298.0" prefHeight="16.0" prefWidth="96.0" text="101 BEIRA RIO" />
+      <Label fx:id="btnO" layoutX="176.0" layoutY="326.0" text="051 GRANDE CIRCULAR 1" />
+      <Label fx:id="btnO" layoutX="128.0" layoutY="216.0" text="366 CUMBUCO/ BEIRA MAR(JARDINEIRA)" />
+      <Label fx:id="btnO" layoutX="176.0" layoutY="272.0" text="016 CUCA BARRA/PAPICU" />
+      <Label fx:id="btnO" layoutX="127.0" layoutY="242.0" text="055 CORUJÃO/ GRANDE CIRCULAR" />
    </children>
 </AnchorPane>
