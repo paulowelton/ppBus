@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="tela4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visual.Avaliacao">
+   <children>
+      <Label id="titAvaliacao" layoutX="238.0" layoutY="23.0" prefHeight="30.0" prefWidth="124.0" stylesheets="@app.css" text="Avaliação">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button id="btnVoltar2" fx:id="btnVoltar3" layoutX="345.0" layoutY="350.0" mnemonicParsing="false" onAction="#VoltarLinhas" text="voltar" />
+      <Button id="btnVoltarIntroducao" fx:id="btnIntroducao" layoutX="422.0" layoutY="350.0" mnemonicParsing="false" onAction="#VoltarIntroducao" text="voltar para introdução" />
+      <TextArea fx:id="campoS" layoutX="15.0" layoutY="218.0" prefHeight="71.0" prefWidth="570.0" promptText="Digite sua sugestão para melhorarmos o aplicativo" />
+      <Button fx:id="btnE" layoutX="519.0" layoutY="303.0" mnemonicParsing="false" onAction="#click" text="ENVIAR" />
+      <TextField fx:id="campoN" layoutX="195.0" layoutY="64.0" prefHeight="24.0" prefWidth="210.0" promptText="Digite seu nome" />
+      <Label fx:id="btnO" layoutX="143.0" layoutY="68.0" text="NOME:" />
+      <RadioButton fx:id="btnS" layoutX="252.0" layoutY="136.0" mnemonicParsing="false" text="SIM">
+         <toggleGroup>
+            <ToggleGroup fx:id="gostou" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="btnN" layoutX="319.0" layoutY="136.0" mnemonicParsing="false" text="NÃO" toggleGroup="$gostou" />
+      <Label fx:id="btnO" layoutX="26.0" layoutY="137.0" text="GOSTOU DA NOSSA APLICAÇÃO:" />
+   </children>
+</AnchorPane>
