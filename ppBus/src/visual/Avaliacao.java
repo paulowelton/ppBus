@@ -78,18 +78,28 @@ public class Avaliacao {
 
     @FXML
     void click(ActionEvent event) {
+        boolean gostou;
         Comentario com = new Comentario();
         com.setNome(campoN.getText());
         com.setComentario(campoS.getText());
         if(btnS.isSelected()){
             com.setGostou(true);
+            gostou = true;
         }else{
             com.setGostou(false);
+            gostou = false;
         }
         if(controle.adicionar(com)){
-            Alert janelinha = new Alert(AlertType.INFORMATION);
-            janelinha.setContentText("Obrigado pelo seu comentário.");
+            if(gostou == true){
+                Alert janelinha = new Alert(AlertType.INFORMATION);
+            janelinha.setContentText("Obrigado pelo seu comentário! Estaremos sempre ao seu dispor!");
             janelinha.show();
+            }
+            if(gostou == false){
+                Alert janelinha = new Alert(AlertType.INFORMATION);
+            janelinha.setContentText("Lamentamos por isso! Estaremos tentando melhorar ao máximo para você.");
+            janelinha.show();
+            }
             campoN.setText("");
             campoS.setText("");
             btnS.setSelected(false);
