@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="tela5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visual.ComoUsar">
+   <children>
+      <Label id="titComoUsar" layoutX="14.0" layoutY="14.0" stylesheets="@app.css" text="Como Usar">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button id="btnA" disable="true" layoutX="23.0" layoutY="74.0" mnemonicParsing="false" stylesheets="@app.css" text="Avaliação" />
+      <Text id="titA" fx:id="titA" layoutX="118.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O botão de avaliação serve para voçê avaliar o aplicativo." wrappingWidth="472.96044921875" />
+      <Button id="btnO" disable="true" layoutX="31.0" layoutY="123.0" mnemonicParsing="false" stylesheets="@app.css" text="Ônibus" />
+      <Text id="titO" fx:id="titO" layoutX="118.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esse botão vai mostrar tanto as linhas de ônibus como as paradas também." wrappingWidth="385.35986328125" />
+      <Button id="btnP" disable="true" layoutX="31.0" layoutY="176.0" mnemonicParsing="false" stylesheets="@app.css" text="Paradas" />
+      <Text id="titP" fx:id="titP" layoutX="118.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Esse botão vai estar dentro da tela de ônibus, a função dele é mostrar as paradas que os ônibus vão passar." wrappingWidth="472.96044921875" />
+      <Button id="btnLinhasO" fx:id="btnLinhas" layoutX="433.0" layoutY="362.0" mnemonicParsing="false" onAction="#abrirListaIOnibus" stylesheets="@app.css" text="Linhas de ônibus" />
+      <Label id="comece" layoutX="370.0" layoutY="366.0" stylesheets="@app.css" text="Começe:" />
+   </children>
+</AnchorPane>
