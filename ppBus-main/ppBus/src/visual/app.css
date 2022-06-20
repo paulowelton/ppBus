@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#Tela1{
+   -fx-background-color: #48b9b3;
+}
+#ppbus{
+    -fx-text-fill:#fff;
+  
+}
+#introducaotxt{
+    -fx-text-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#introducaotit{
+    -fx-text-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#introducaofala{
+    -fx-fill: #ffffff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#G{ 
+    -fx-text-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#NS1{
+    -fx-text-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#comecar1{
+    -fx-text-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+
+#btnLinhas1:hover{
+    -fx-background-color:rgb(44, 107, 114);
+    -fx-text-fill:gray;
+}
+#btnLinhas1{
+    -fx-background-color:rgb(49, 136, 146);
+    -fx-text-fill:#fff;
+}
+#btnComoUsar{
+    -fx-background-color:rgb(49, 136, 146);
+    -fx-text-fill:#fff;
+}
+#btnComoUsar:hover{
+    -fx-background-color:rgb(44, 107, 114);
+    -fx-text-fill:gray;
+}
+#tela2{
+    -fx-background-color: #48b9b3;
+}
+#titOnibus{
+    -fx-text-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#btnParadas{
+    -fx-background-color:rgb(49, 136, 146);
+    -fx-text-fill:#fff;
+}
+#btnParadas:hover{
+    -fx-background-color:rgb(44, 107, 114);
+    -fx-text-fill:gray;
+}
+#btnAvaliacao{
+    -fx-background-color:rgb(49, 136, 146);
+    -fx-text-fill:#fff;
+}
+#btnAvaliacao:hover{
+    -fx-background-color:rgb(44, 107, 114);
+    -fx-text-fill:gray;
+}
+#tela3{
+    -fx-background-color: #48b9b3;
+}
+#titParadas{
+    -fx-text-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#btnVoltar{
+    -fx-background-color:rgb(49, 136, 146);
+    -fx-text-fill:#fff;
+}
+#btnVoltar:hover{
+    -fx-background-color:rgb(44, 107, 114);
+    -fx-text-fill:gray;
+}
+#tela4{
+    -fx-background-color: #48b9b3;
+}
+#titAvaliacao{
+    -fx-text-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#btnVoltar2{
+    -fx-background-color:rgb(49, 136, 146);
+    -fx-text-fill:#fff;
+}
+#btnVoltar2:hover{
+    -fx-background-color:rgb(44, 107, 114);
+    -fx-text-fill:gray;
+}
+#btnVoltarIntroducao{
+    -fx-background-color:rgb(49, 136, 146);
+    -fx-text-fill:#fff;
+}
+#btnVoltarIntroducao:hover{
+    -fx-background-color:rgb(44, 107, 114);
+    -fx-text-fill:gray;
+}
+#tela5{
+    -fx-background-color: #48b9b3;
+}
+#titComoUsar{
+    -fx-text-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#btnA{
+    -fx-background-color:rgb(49, 136, 146);
+    -fx-text-fill:#fff;
+}
+#btnO{
+    -fx-background-color:rgb(49, 136, 146);
+    -fx-text-fill:#fff;
+}
+#btnP{
+    -fx-background-color:rgb(49, 136, 146);
+    -fx-text-fill:#fff;
+}
+#titA{
+    -fx-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#btnLinhasO{
+    -fx-background-color:rgb(49, 136, 146);
+    -fx-text-fill:#fff;
+}
+#btnLinhasO:hover{
+    -fx-background-color:rgb(44, 107, 114);
+    -fx-text-fill:gray;
+}
+#comece{
+    -fx-text-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#titO{
+    -fx-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#titP{
+    -fx-fill:#fff;
+    -fx-font-family: 'Poppins', sans-serif;
+}
+#btnE{
+    -fx-background-color:rgb(49, 136, 146);
+    -fx-text-fill:#fff;
+}

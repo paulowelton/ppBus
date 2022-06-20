@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="tela3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@app.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="visual.Paradas">
+   <children>
+      <Label id="titParadas" layoutX="179.0" layoutY="14.0" stylesheets="@app.css" text="PARADAS">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+      <Button id="btnVoltar" fx:id="btnVoltar2" layoutX="507.0" layoutY="353.0" mnemonicParsing="false" onAction="#volatrLinha2" stylesheets="@app.css" text="voltar" />
+      <Label fx:id="textoOnibusSelecionado" layoutX="28.0" layoutY="82.0" text="O ônibus selecionado foi " textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagem" fitHeight="256.0" fitWidth="425.0" layoutX="22.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
