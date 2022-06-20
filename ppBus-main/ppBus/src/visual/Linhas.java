@@ -73,7 +73,12 @@ public class Linhas {
     void abrirParadas(ActionEvent event) throws Exception {
         abrirTela(event, "Paradas.fxml", "app.css");
     }
-
+    @FXML
+    void abrir070(ActionEvent event) throws Exception {
+        onibus.numero = "070";
+        abrirTela(event, "Paradas.fxml", "app.css");
+        
+    }
     @FXML
     void abrir016(ActionEvent event) throws Exception {
         onibus.numero = "016";

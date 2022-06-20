@@ -26,7 +26,7 @@
       <Button id="btn706" fx:id="btn706" layoutX="134.0" layoutY="110.0" mnemonicParsing="false" onAction="#abrir706" text="706 BARRA DO CEARÁ/ANTÔNIO BEZERRA" />
       
       <Button id="btn711" fx:id="btn711" layoutX="134.0" layoutY="167.0" mnemonicParsing="false" onAction="#abrir711" text="711 BARRA DO CEARÁ/CAIS DO PORTO" />
-      <Button id="btn070" fx:id="btn070" layoutX="134.0" layoutY="195.0" mnemonicParsing="false" onAction="#abrirParadas" text="070 CUCA BARRA/ PARANGABA" />
+      <Button id="btn070" fx:id="btn070" layoutX="134.0" layoutY="195.0" mnemonicParsing="false" onAction="#abrir070" text="070 CUCA BARRA/ PARANGABA" />
      
       <Button id="btn055" fx:id="btn055" layoutX="134.0" layoutY="251.0" mnemonicParsing="false" onAction="#abrir055" text="055 CORUJÃO/ GRANDE CIRCULAR" />
       <Button id="btn016" fx:id="btn016" layoutX="134.0" layoutY="280.0" mnemonicParsing="false" onAction="#abrir016" text="016 CUCA BARRA/PAPICU" />
